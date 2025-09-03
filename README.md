@@ -34,4 +34,4 @@ https://github.com/user-attachments/assets/2fc1bbc3-e5ce-4f34-9b2e-e60a4e460f6b
 
 ### Clone this repo
 ```bash
-git clone https://github.com/YOUR-USERNAME/AudioExtractor.git
+git clone https://github.com/ShashiSingh8434/AudioExtractor.git
