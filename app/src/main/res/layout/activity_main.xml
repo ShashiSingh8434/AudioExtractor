@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<Button
+    android:id="@+id/btnPickVideo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="1) Choose MP4 (video)" />
+
+<TextView
+    android:id="@+id/txtVideoUri"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="No video selected"
+    android:paddingTop="8dp"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="12dp"/>
+
+<Button
+    android:id="@+id/btnCreateDest"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="2) Save As (.m4a)" />
+
+<TextView
+    android:id="@+id/txtDestUri"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="No destination selected"
+    android:paddingTop="8dp"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="16dp"/>
+
+<Button
+    android:id="@+id/btnExtract"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="3) Extract Audio"
+    android:enabled="false" />
+
+<ProgressBar
+    android:id="@+id/progress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:indeterminate="true"
+    android:visibility="gone"
+    style="?android:attr/progressBarStyleHorizontal"/>
+
+<TextView
+    android:id="@+id/txtLog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Logs will appear here..."
+    android:paddingTop="12dp"/>
+</LinearLayout>
